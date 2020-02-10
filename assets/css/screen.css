@@ -653,7 +653,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin-top: 0;
 }
 
-.post-card-primary-tag {
+.post-card-primary-tag{
     margin: 0 0 0.2em;
     color: var(--blue);
     font-size: 1.2rem;
@@ -939,6 +939,15 @@ make sure this only happens on large viewports / desktop-ish devices.
     line-height: 1.4em;
     font-weight: 600;
     text-transform: uppercase;
+}
+.post-full-tags > * {
+    margin: 0 .5em;
+}
+.post-full-tags > *:first-child {
+    margin-left: 0;
+}
+.post-full-tags > *:last-child {
+    margin-right: 0;
 }
 
 .post-full-meta-date {
